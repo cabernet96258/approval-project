@@ -9,7 +9,7 @@ export default function ArtworkCard({ artwork, rank, userName, onLike, onDelete 
       )}
       <div className="artwork-image-wrapper">
         <img
-          src={`/uploads/${artwork.filename}`}
+          src={`/api/artworks/${artwork.id}/image`}
           alt={artwork.title}
           className="artwork-image"
           loading="lazy"

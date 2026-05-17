@@ -4,5 +4,6 @@ frontend/node_modules/
 backend/artworks.db
 backend/uploads/*
 !backend/uploads/.gitkeep
+backend/public/
 .env
 dist/
